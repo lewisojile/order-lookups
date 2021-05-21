@@ -1,0 +1,3 @@
+CREATE DATABASE storedb;
+CREATE USER lewis WITH PASSWORD 'lewis';
+GRANT ALL ON DATABASE storedb TO lewis;
